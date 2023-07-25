@@ -1,0 +1,50 @@
+#What .items{
+    display: block;
+    padding: 1rem;
+}
+
+#What .items .item{
+    display: flex;
+    text-align: left;
+}
+#What .items .item i{
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+@media(max-width:767px) {
+    #navheader{
+        flex-direction: column;
+        align-items: center;
+    }
+    #navheader .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    #navheader ul{
+        padding: 0.5rem;
+    }
+    #showcase .showcaseContent{
+        top: 110px;
+        text-align: center;
+    }
+    #who {
+        display: block;
+    }
+    #who .who-img {
+        display: none;
+    }
+    #clients .logo img {
+        width: 100%;
+    }
+    #clients .logo div:last-child {
+        display: none;
+    }
+    #contact{
+        display: block;
+    }  
+    #contact .map{
+        height: 200px;
+        border-top: 4px solid white;
+    }  
+}
